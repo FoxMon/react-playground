@@ -24,4 +24,6 @@ export const withSuspense = ({
       </Suspense>
     );
   };
+
+  return ComponentWithSuspense;
 };
