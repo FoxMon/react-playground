@@ -13,7 +13,7 @@ export const SpinnerBase = styled.svg`
   animation: rotate 1s linear infinite;
 
   & .path {
-    stroke: #5652bf;
+    stroke: ${(props) => props.theme.colors.spinner};
     stroke-linecap: round;
     animation: dash 1.5s ease-in-out infinite;
   }
