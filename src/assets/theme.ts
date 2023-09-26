@@ -13,6 +13,8 @@ const clientSize = {
 const colors = {
   black700: "#000000",
   white700: "#FFFFFF",
+  gray400: "#f2f2f2",
+  spinner: "#5652bf",
 };
 
 /**
