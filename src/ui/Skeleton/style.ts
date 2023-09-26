@@ -21,7 +21,7 @@ const skeletonGradient = keyframes`
 
 export const SkeletonBase = styled.div<SkeletonBaseProps>`
   display: inline-block;
-  background-color: ${(props) => props.theme.colors.skeletonGray};
+  background-color: ${(props) => props.theme.colors.gray400};
   height: 100%;
   width: ${(props) => (props.$width ? `${props.$width}px` : "100%")};
   position: relative;
