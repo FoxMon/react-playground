@@ -1,3 +1,5 @@
 import { ButtonGroups } from "./ButtonGroups";
+import { Skeleton } from "./Skeleton";
+import { Spinner } from "./Spinner";
 
-export { ButtonGroups };
+export { ButtonGroups, Skeleton, Spinner };
