@@ -1,3 +1,3 @@
 import { Common } from "./common";
 
-export { Common };
+export type { Common };
