@@ -1,7 +1,7 @@
 import { ThemeProvider } from "styled-components";
 import { theme } from "./assets/theme";
 import { GlobalStyle } from "./assets/global";
-import { ButtonGroups } from "./ui";
+import { ButtonGroups, Spinner } from "./ui";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
           outlined="outlined"
           label="Button"
         />
+        <Spinner />
       </div>
     </ThemeProvider>
   );
