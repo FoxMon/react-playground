@@ -44,7 +44,10 @@ export const useAsyncGenerator = <T>(
     };
 
     function refetch() {
-      setState((prevState: AsyncGenerator<T>) => ({ ...prevState, refetch }));
+      setState((prevState: AsyncGenerator<T>) => ({
+        ...prevState,
+        loading: true,
+      }));
       executeRequest(generatorFunction());
     }
 
