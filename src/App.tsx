@@ -3,6 +3,8 @@ import { theme } from "./assets/theme";
 import { GlobalStyle } from "./assets/global";
 import { ButtonGroups, Spinner } from "./ui";
 import { useAsyncGenerator } from "./hooks/useAsyncGenerator";
+import { ZustandComp } from "./components/ZustandComp";
+import { ZustandCart } from "./components/ZustandCart";
 
 function App() {
   async function* handleRequest(): any {
@@ -40,6 +42,8 @@ function App() {
         />
         <Spinner />
         <button onClick={state.refetch}>REFETCH</button>
+        <ZustandComp />
+        <ZustandCart />
       </div>
     </ThemeProvider>
   );
